@@ -3,6 +3,7 @@ package tech.talci.sowisoassignment.services.implementations;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import tech.talci.sowisoassignment.domain.Answer;
+import tech.talci.sowisoassignment.dto.AnswerDTO;
 import tech.talci.sowisoassignment.exceptions.ResourceNotFoundException;
 import tech.talci.sowisoassignment.repositories.AnswerRepository;
 import tech.talci.sowisoassignment.services.AnswerService;
@@ -39,5 +40,10 @@ public class AnswerServiceJPA implements AnswerService {
     @Override
     public void deleteById(Long id) {
         answerRepository.deleteById(id);
+    }
+
+    @Override
+    public String validateAnswer(AnswerDTO answerDTO, String questionId) {
+        return null;
     }
 }
