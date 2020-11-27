@@ -27,7 +27,7 @@ public class QuestionServiceJPA implements QuestionService {
     @Override
     public QuestionDTO generateQuestion() {
         Random random = new Random();
-        int upperBound = random.nextInt(5);
+        int upperBound = 200;
 
         int firstNumber = random.nextInt(upperBound);
         int secondNumber = random.nextInt(upperBound);
