@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d35a1b5-db13-4111-920d-5aa569a06c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/configurations/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/dto/ValidationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/AnswerPayload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/Question.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/AnswerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/domain/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/AnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/implementations/AnswerServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/implementations/AnswerServiceJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +57,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sowiso-assignment-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Spring/talcibank2.0-spring-rest/talcibank-angular-frontend" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Computer Science\Java\assignments\assignment-sowiso\sowiso-assignment-frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Computer Science\Java\assignments\assignment-sowiso\sowiso-assignment-frontend\src\app" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E2E Tests (sowiso-assignment-frontend)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -91,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606381662815</updated>
       <workItem from="1606381663831" duration="1156000" />
-      <workItem from="1606460993885" duration="676000" />
+      <workItem from="1606460993885" duration="1938000" />
     </task>
     <servers />
   </component>
@@ -111,9 +133,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606461080651">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606463199389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606461080651" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606463199389" />
   </component>
 </project>

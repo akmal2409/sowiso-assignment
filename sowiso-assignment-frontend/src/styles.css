@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --main-blue: #003049;
+  --mikado-yellow: #FDC500;
+  --cyber-yellow: #FFD500;
+  --platinum: #E5E5E5;
+  --main-red: #D62828;
+  --main-orange: #F77F00;
+  --main-beige: #FCBF49;
+  --main-lemon: #EAE2B7;
+  --rich-black: #011627;
+  --carribean-green: #06D6A0;
+}
+
+.bg-main-red {
+  background-color: var(--main-red);
+}
+
+.bg-mikado {
+  background-color: var(--mikado-yellow);
+}
+
+.bg-blue {
+  background-color: var(--main-blue);
+}
+
+.bg-black {
+  background-color: var(--rich-black);
+}
+
+/* Input errors */
+input.ng-touched.ng-invalid {
+  border: 1px red solid;
+}
+
+/*Animations*/
+.FadeIOut {
+  animation: fadeinout 3s linear forwards;
+}
+
+@keyframes fadeinout {
+  0%, 100% {opacity: 0; }
+  50% {opacity: 1; }
+}
+
+.fadeIn {
+  animation: onlyfadein 2s;
+}
+
+@keyframes onlyfadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Animation for router-outlet  */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+router-outlet + * {
+  display: block;
+  animation: fade 1s;
+}
