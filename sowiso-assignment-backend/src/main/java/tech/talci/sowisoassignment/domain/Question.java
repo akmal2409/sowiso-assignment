@@ -1,6 +1,7 @@
 package tech.talci.sowisoassignment.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -15,6 +16,7 @@ import java.time.LocalDate;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Question implements Serializable {
 
     private static final long serialVersionUID = -936314128555550177L;
