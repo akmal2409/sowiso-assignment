@@ -20,6 +20,7 @@
 }
 
 .body {
+  font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
