@@ -1,1 +1,16 @@
-<p>question-form works!</p>
+<div class="card custom-position-card text-center" style="width: 18rem;">
+  <img src="https://img2.pngio.com/transparent-background-quiz-logo-png-quiz-game-png-860_330.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-text">{{ question.question }}</h5>
+  </div>
+  <form [formGroup]="questionForm">
+    <div class="form-group">
+      <label for="answer">Your answer</label>
+      <input [formControlName]="'answer'" type="number" class="form-control" id="answer">
+      <div class="alert alert-warning mt-1" *ngIf="questionForm.touched && questionForm.invalid">
+        Please check your input
+      </div>
+    </div>
+  </form>
+  <button class="btn btn-lg btn-outline-success" (click)="onSubmit()">Submit</button>
+</div>

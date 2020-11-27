@@ -12,6 +12,17 @@
   --carribean-green: #06D6A0;
 }
 
+.custom-position-card {
+  width: 18rem;
+  height: 40vh;
+  position: relative;
+  top: 50%;
+}
+
+.body {
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .bg-main-red {
   background-color: var(--main-red);
 }

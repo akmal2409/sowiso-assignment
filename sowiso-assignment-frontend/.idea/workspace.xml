@@ -20,16 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d35a1b5-db13-4111-920d-5aa569a06c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/dto/ValidationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/AnswerPayload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/Question.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/SowisoAssignmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/SowisoAssignmentApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/controllers/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/dto/ValidationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/dto/ValidationDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/AnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/implementations/AnswerServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sowiso-assignment-backend/src/main/java/tech/talci/sowisoassignment/services/implementations/AnswerServiceJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/answer-form/answer-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/question-form/question-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/question-form/question-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/question-form/question-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/question-form/question-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/AnswerPayload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/Question.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/Question.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/Validation.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/welcome-form/welcome-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/welcome-form/welcome-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/welcome-form/welcome-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/welcome-form/welcome-form.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +84,15 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606381662815</updated>
       <workItem from="1606381663831" duration="1156000" />
-      <workItem from="1606460993885" duration="1938000" />
+      <workItem from="1606460993885" duration="4369000" />
+      <workItem from="1606467226978" duration="3147000" />
     </task>
     <servers />
   </component>
@@ -137,5 +153,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606463199389" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1606470354069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606470354069" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1606470354069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606470354069" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1606470354069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606470354069" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1606470354069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606470354069" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1606469562498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606469562498" />
   </component>
 </project>

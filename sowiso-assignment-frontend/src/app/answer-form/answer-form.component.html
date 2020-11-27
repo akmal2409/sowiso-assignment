@@ -1,1 +1,17 @@
-<p>answer-form works!</p>
+<div class="card custom-position-card text-center" style="width: 18rem;">
+  <img src="https://img2.pngio.com/transparent-background-quiz-logo-png-quiz-game-png-860_330.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="mb-3" [ngClass]="{'green-circle': correct, 'red-circle': !correct}">
+      <fa-icon style="font-size: 3rem" [icon]="faAward" *ngIf="correct"></fa-icon>
+      <fa-icon style="font-size: 3rem" [icon]="faFail" *ngIf="!correct"></fa-icon>
+    </div>
+    <h4 *ngIf="!correct" class="m-3">Wrong!
+      <br>
+      <p>Correct answer is {{ answer }}</p>
+    </h4>
+    <h4 *ngIf="correct" class="m-3">Correct!</h4>
+  </div>
+  <br>
+  <button class="btn btn-lg btn-outline-success mt-3" (click)="onNext()">Next Question</button>
+</div>
+s
