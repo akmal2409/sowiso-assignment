@@ -16,30 +16,10 @@ public class AnswerServiceJPA implements AnswerService {
 
     private final AnswerRepository answerRepository;
 
-    @Override
-    public List<Answer> findAll() {
-        return answerRepository.findAll();
-    }
-
-    @Override
-    public Answer findById(Long id) {
-        return answerRepository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Answer was not found"));
-    }
 
     @Override
     public Answer save(Answer answer) {
         return answerRepository.save(answer);
-    }
-
-    @Override
-    public void delete(Answer answer) {
-        answerRepository.delete(answer);
-    }
-
-    @Override
-    public void deleteById(Long id) {
-        answerRepository.deleteById(id);
     }
 
     @Override
