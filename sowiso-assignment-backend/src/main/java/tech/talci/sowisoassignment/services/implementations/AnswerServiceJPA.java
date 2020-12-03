@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import tech.talci.sowisoassignment.domain.Answer;
 import tech.talci.sowisoassignment.domain.Question;
 import tech.talci.sowisoassignment.dto.AnswerDTO;
+import tech.talci.sowisoassignment.dto.ValidationDTO;
 import tech.talci.sowisoassignment.exceptions.ResourceNotFoundException;
 import tech.talci.sowisoassignment.repositories.AnswerRepository;
 import tech.talci.sowisoassignment.repositories.QuestionRepository;
@@ -29,7 +30,7 @@ public class AnswerServiceJPA implements AnswerService {
     }
 
     @Override
-    public Map<String, Boolean> validateAnswer(AnswerDTO answerDTO, Long questionId) {
+    public ValidationDTO validateAnswer(AnswerDTO answerDTO, Long questionId) {
         Question question = questionRepository.findById(questionId)
                 .orElseThrow(() ->
                         new ResourceNotFoundException("Question was not found with id: " + questionId));
@@ -44,7 +45,11 @@ public class AnswerServiceJPA implements AnswerService {
 
         answerRepository.save(answer);
 
-        return answer.isCorrect() ? Collections.singletonMap("correct", true) :
-                                    Collections.singletonMap("correct", false);
+        ValidationDTO validationDTO = new ValidationDTO();
+
+        validationDTO.setAnswer(question.getCorrectAnswer());
+        validationDTO.setCorrect(answer.isCorrect());
+
+        return validationDTO;
     }
 }
